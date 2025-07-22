@@ -40,7 +40,7 @@ export function parseAlerts(features: { id: string; properties: NWSAlertProperti
       const isEmergency = properties.description?.toUpperCase().includes("TORNADO EMERGENCY") ||
                          properties.event?.toUpperCase().includes("TORNADO EMERGENCY") ||
                          properties.headline?.toUpperCase().includes("TORNADO EMERGENCY");
-      type = isEmergency ? "TOR_EMERGENCY" : "TOR";
+      type = isEmergency ? "TORE" : "TOR";
       
       const alertProps: NWSAlertProperties = {
         id,
