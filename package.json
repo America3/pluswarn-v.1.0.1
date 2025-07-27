@@ -2,7 +2,7 @@
   "name": "pluswarn-v.1.0.1",
   "version": "1.0.1",
   "description": "A project in TypeScript, CSS, and JavaScript. 3D FPS demo with custom animated monsters.",
-  "main": "index.js",
+  "main": "AppMenu.tsx",
   "types": "index.d.ts",
   "scripts": {
     "start": "webpack serve --mode development",
