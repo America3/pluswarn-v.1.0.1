@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: pluswarn
+    env: node
+    plan: free
+    buildCommand: yarn install && yarn build
+    startCommand: yarn start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      # Add any other secrets or environment variables needed here
